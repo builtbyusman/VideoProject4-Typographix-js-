@@ -1,0 +1,17 @@
+{
+  "name": "typograpix",
+  "version": "1.0.0",
+  "description": "Typographix website",
+  "license": "ISC",
+  "author": "usman",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --watch --source-map scss/main.scss:css/compiled_style.css",
+    "sass-prod": "sass --no-source-map --style=compressed scss/main.scss:css/compiled_style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.98.0"
+  }
+}
